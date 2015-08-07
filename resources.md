@@ -1,74 +1,111 @@
 The following is an incomplete list of helpful tools that have aided our graduate school careers.  Emphasis has been place on open source and free software that is readily available to students at the University of Minnesota.
 
-## Backing up your work
-- Cross Platform
-- Dropbox (free)
-- Google Drive (free)
-- CrashPlan (Unlimited backups and now available for free through CBS!) http://www.cbs.umn.edu/it/services/general/personalbackup
-- SpiderOak (2GB free)
-- rsync (free) (With cygwin on windows)
-- External Hard Drive!
-- PureSync
-- Mac
-- Time machine (free)
+The organization of this follows the scientific workflow:
 
-- Productive and robust work documentation
+1. Learning
+2. Doing
+3. Communicating
+
+
+## Learning
+
+### Paper and Citation Management
+
+- Mendeley
+- EndNote
+- RefWorks
+- Zotereo
+- CiteULike
+- PaperPile
+
+And there's this handy UMn proxy bookmarklet you can use to get access to papers while off of campus. Or just sign in through a UMn VPN
+
+### RSS Feeds
+
+- Feedly (Derek uses this, and likes it)
+
+## Doing
+
+### Planning and Executing
+
+- Project Management Software
+ - Trello
+ - Asana
+ - Basecamp
+ - and others [...](http://academia.stackexchange.com/questions/1190/what-are-some-good-project-management-tools-for-academics) 
+
+- Tracking your time you are spending on projects
+ - Gleeo (Android specific)
+ - Toggl (Web, iOS, Android)
+
+### Keeping track of what you did
+- Reproducible research
+ - RMarkdown
+ - IPython and Jupyter
+
 - Lab notebook
-- Blog as a Lab Notebook
-- Wordpress
-- Pelican / Jekyll (Derek uses Pelican)
-- Evernote
-- Version Control
-- Git
-- GitHub
-- Bitbucket (unlimited private repos for academics--store your coursework code here!)
-- Personal Wiki as a knowledgebase
-- Install MoinMoin (Wiki engine) locally--contact Derek if you want to know more
-- OneNote
+ - either software
+  - Evernote
+  - OneNote
+  - RedNotebook
+ - Blog as a Notebook
+  - Wordpress
+  - Static Site generator (Jekyll, Derek uses Pelican)
 
-## Using a computer as a tool 
+- Version control
+ - use git to track your projects
+ - umn has enterprise git (unlimeted private repos), github.umn.edu
+ - or use github.com and be open with your science (but think hard about doing that)
 
-People stuff
-- Twitter: follow your favorite researchers/labs, and tweet about your own science
-- Research Website: make what you’re working on public so people can see what you do
-- Wordpress is easy to set up, free hosting on wordpress.com
-blogging for hackers using Jekyll (contact Derek if you want to know more) 
-Linkedin -- do this, really easy to set up.
-Uthink (UMN sponsored blog) http://blog.lib.umn.edu/uthink/
-Business cards printed at UMN
-    Literature searching
-Set up a RSS feed aggregator to pull feeds from your favorite journals so you only have to check one spot to read things relevant to your interests
-www.feedly.com/
-Web of Knowledge/Science: Excellent academic search engine
-Google Scholar
-TextEditor
-TextWrangler for Mac
-Geany for Linux (precompiled packages available for most distros, $ apt-get install geany)
-Notepad++ for Windows
-Bioinformatics tools:
-Galaxy - Web interface to many bioinformatics software
-Bioinformatics toolbox - for matlab
-BioPython - Bioinformatics toolbox for python
-Bioconductor - Bioinformatics for R
-Software repositories
-Github - many open source projects live here
-Bitbucket - unlimited private repos for academics
-SourceForge
-PyPI - Python libraries
-Image/figure creation
-GIMP - Photo editing
-Inkscape - Vector graphics editing, good for paper figures
-Scribus for making posters
-Wordprocessing
-Libreoffice
-Google Drive
-LaTeX / LyX
-Pandoc (write in Markdown, convert to HTML/LaTeX/.doc)
-HTML / CSS
-Scripting
-Python 
-R - here’s some videos to get you a foundation
-http://www.codecademy.com/ (Javascript/Python/Ruby/HTML)
-http://cli.learncodethehardway.org/
-Unix/Linux
-Quick way to get your bearings on the command line - Learn CLI (Command Line Interface) the Hard Way 
+### Protecting your work // Backup
+
+- storing your stuff in the cloud
+ - Dropbox (Windows, Linux, Mac) -- allows you to work in folders and not think about it
+ - Google Drive -- unlimited space at UMn
+ - SpiderOak -- fully encrpyted data, don't lose your password
+
+## Communication
+
+### Papers / writing
+
+- Word365
+- Google Docs (include PaperPile for citations)
+- LaTeX // overleaf (collaborative LaTeX writing)
+- markdown, compiled by pandoc
+
+### Figures
+- R, base graphics, ggplot, ggvis ...
+- python, packages go here .. seaborn?
+- Inkscape
+- d3.js
+
+### Posters
+
+- Inkscape again
+- Scribus (Learning curve)
+- LaTeX 
+
+### Presentations
+
+- Google slides
+- R Markdown presentations
+
+### Other outlets
+
+- Twitter, make a science-specific account
+- blog your stuff / science website
+ - wordpress
+ - static sites (Jekyll / Pelican)
+  - host on github.io
+  - host on Amazon EC2
+
+## Misc
+
+- Password Manager
+ - KeePass2 (not in the cloud, you have the file ... that you can put in the cloud :/)
+- Scheduling meetings
+ - Doodle
+ - WhenIsGood
+- Planning Events
+ - Google Forms
+
